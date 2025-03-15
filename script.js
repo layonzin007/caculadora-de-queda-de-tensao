@@ -11,6 +11,6 @@ function calcular()
   console.log("com="+com);
   console.log("corrente"+corrente);
   console.log("ten"+ten);
-  var ten=v.Exponential(3);
+  var ten=v.toExponential(3);
   document.getElementById("ten").innerHTML= "Queda de tensão:"+ten+"(V)";
 }
