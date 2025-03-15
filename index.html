@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Calculadora de queda de tensão</title>
+  </head>
+  <body style="background-color:green">
+    <h1 id="header">Calculadora de queda de tensão</h1>
+    <p> <label>digite o valor da comprimento(em m)</label>
+      <input id="com" />
+    </p>
+<p> <label>Digite o valor da área(em mm²)</label>
+      <input id="area" />
+</p>
+<p> <label>Digite o valor da corrente(em Amperes)</label>
+      <input id="corrente" />
+</p>
+    <p>
+      <label>Selecione o material</label>
+      <select id="material">
+        <option value="0.0282">Aluminio</option>
+        <option value="0.0168">Cobre</option>
+        <option value="0.0159">Prata</option>
+        <option value="0.0244">Ouro</option>
+        <option value="0.115">Estanho</option>
+      </select>
+    </p>
+    <p><label id="ten"></label></p>
+    <button onclick="calcular()">Calcular</button>
+    <script src="script.js"></script>
+  </body>
+</html>
